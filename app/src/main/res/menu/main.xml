@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_restart"
+        android:title="重玩"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="restartAction" />
+
+    <item
+        android:id="@+id/action_undo"
+        android:title="反悔"
+        android:orderInCategory="20"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="undoAction" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:title="设置"-->
+        <!--android:orderInCategory="30"-->
+        <!--android:showAsAction="ifRoom|withText"-->
+        <!--android:onClick="restartAction" />-->
+
+    <item
+        android:id="@+id/action_share"
+        android:title="分享"
+        android:orderInCategory="40"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="shareAction" />
+
+    <item
+        android:id="@+id/action_save_game"
+        android:title="保存进度"
+        android:orderInCategory="50"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="saveGameAction" />
+
+    <item
+        android:id="@+id/action_load_game"
+        android:title="读取进度"
+        android:orderInCategory="60"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="loadGameAction" />
+
+    <item
+        android:id="@+id/action_maintain_game"
+        android:title="管理进度"
+        android:orderInCategory="70"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="maintainGameAction" />
+
+    <item
+        android:id="@+id/action_info"
+        android:title="关于本游戏"
+        android:orderInCategory="80"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="showInfoAction" />
+</menu>

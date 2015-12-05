@@ -1,0 +1,46 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C0C0C0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:id="@+id/root"
+        android:layout_margin="@dimen/activity_margin"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_alignParentTop="true"></GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:id="@+id/textScore"
+        android:background="@drawable/textview_radius"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:gravity="top|center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:id="@+id/textHighestScore"
+        android:background="@drawable/textview_radius"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_alignTop="@+id/textScore"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="45dp"
+        android:gravity="top|center" />
+
+
+</RelativeLayout>

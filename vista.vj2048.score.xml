@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="SAVED_GAME">ASDF:0,0,0,0,0,0,0,0,0,0,0,2,4,0,2,2:0:0#111:0,0,0,2,4,0,0,0,0,0,0,0,0,0,0,0:0:0#222:0,0,0,2,4,0,0,0,0,0,0,0,0,0,0,0:0:0</string>
+    <int name="HIGHEST_SCORE" value="172" />
+</map>
